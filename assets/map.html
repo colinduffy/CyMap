@@ -1,0 +1,58 @@
+<html>
+<script type="application/javascript">
+	
+	
+	
+	
+
+	
+	function drawPoint(p1, p2, color){
+		var canvas = document.getElementById("canvas");
+		var ctx = canvas.getContext("2d");
+
+		 		//ctx.fillStyle = "rgb(200,0,0)";
+		 		//ctx.fillRect (p1, p2, 5, 5);
+		
+		ctx.beginPath();
+		ctx.fillStyle = color//"rgb(200,0,0)";
+		ctx.arc(p1, p2, 2, Math.PI*2, 0, true);
+		ctx.closePath();
+		ctx.fill();
+	}
+
+	function draw() {
+ 		var canvas = document.getElementById("canvas");
+ 		var ctx = canvas.getContext("2d");
+
+ 		ctx.fillStyle = "rgb(200,0,0)";
+ 		ctx.fillRect (10, 10, 100, 100);
+ 
+ 		ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
+ 		ctx.fillRect (30, 30, 55, 50);
+	}
+	
+	function refresh() {
+		document.location.reload(true);
+	}
+
+
+
+
+</script>
+<head>
+<meta name='viewport'
+	content='target-densitydpi=device-dpi,initial-scale=2.5,minimum-scale=2.5,user-scalable=yes' />
+</head>
+<body bgcolor="#AAC1B9">
+	<canvas id="canvas" width="1100" height="700" />
+	<script type="text/javascript">
+		var image = new Image();
+		image.src = "map.jpg";
+		var pic = document.getElementById("canvas");
+		image.onload = function() {
+			pic.getContext('2d').drawImage(image, 0, 0);
+		}
+		document.body.style.zoom = "40%";
+	</script>
+</body>
+</html>
