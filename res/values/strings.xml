@@ -1,8 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="hello">Hello</string>
     <string name="app_name">CyMap</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="map_page">Map</string>
+    <string name="addcourse_page">Add a Course</string>
+    <string name="schedule_page">Schedule</string>
+    <string name="class_name">Class Name</string>
+    <string name="room">Room</string>
+    <string name="lab">Recitation/Lab?</string>
+    <string name="save">Save</string>
+    <string name="title_activity_main">CyMapMain</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_title">Class Schedule-Sched_Menu</string>
+    <string name="splash">Splash Page</string>
+
+    <string-array name="buildings_array">
+        <item>Atanasoff</item>
+        <item>Carver</item>
+        <item>Coover</item>
+        <item>Curtis</item>
+        <item>Gerdin</item>
+        <item>Gilman</item>
+        <item>Hoover</item>
+        <item>Howe</item>
+        <item>Kildee</item>
+        <item>Memorial Union</item>
+        <item>Parks Library</item>
+        <item>Pearson</item>
+        <item>Physics</item>
+        <item>Science 1</item>
+        <item>Science 2</item>
+        <item>Sweeney</item>
+        <item>Towne</item>
+    </string-array>
+	
+        <string-array name="buildings_pos_array">
+        <item>445,417</item>
+        <item>510,580</item>
+        <item>380,403</item>
+        <item>675,530</item>
+        <item>695,575</item>
+        <item>500,350</item>
+        <item>375,505</item>
+        <item>305,490</item>
+		<item>725,340</item>
+		<item>625,670</item>
+		<item>485,415</item>
+		<item>445,550</item>
+		<item>560,350</item>
+	<item>605,350</item>
+	<item>610,310</item>
+	<item>380,440</item>
+	<item>300,340</item>
+    </string-array>
+    
+
 
 </resources>
